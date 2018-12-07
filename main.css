@@ -1,0 +1,47 @@
+html, body {
+    background-size: cover;
+    background-color: grey;
+    margin: 10px;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.areas {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: (repeat(3, 1fr));
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.area {
+    display: grid;
+    min-height: 150px;
+    border-radius: 30px;
+    background-image: linear-gradient(black, white);
+}
+
+.reverse {
+    background-image: linear-gradient( yellow, magenta, cyan);
+}
+
+.surprise {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.surprise p {
+    font-size: 22px;
+    font-weight: bold;
+    color: grey;
+}
+
+footer h1 {
+    font-size: 50px;
+}
+
+footer {
+    font-size: 22px;
+}
