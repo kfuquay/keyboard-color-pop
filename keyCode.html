@@ -60,12 +60,12 @@
     } else {
     zone.classList.add('reverse');
     }
-}
+  }
 
-function removeReverse(e) {
+  function removeReverse(e) {
     const zone = document.querySelector(`div[data-key="${e.keyCode}"]`);
     zone.classList.remove('reverse');
-}
+  }
 
-window.addEventListener('keydown', reverseBackground);
+  window.addEventListener('keydown', reverseBackground);
 </script>
